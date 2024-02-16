@@ -1,0 +1,30 @@
+{
+    "name": "katexmathelement",
+    "version": "0.1.0",
+    "description": "Web component wrapping katex",
+    "source": "katexMath.js",
+    "targets": {
+	"module": {
+	    "optimize": true
+	}
+    },
+    "module": "dist/katexMathElemtent.js",
+    "scripts": {
+        "watch": "parcel watch",
+        "build": "parcel build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jnmorley/katexMathElement.git"
+    },
+    "author": "James Morley",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jnmorley/katexMathElement/issues"
+    },
+    "homepage": "https://github.com/jnmorley/katexMathElement#readme",
+    "devDependencies": {
+        "@parcel/transformer-inline-string": "^2.11.0",
+        "parcel": "^2.11.0"
+    }
+}
